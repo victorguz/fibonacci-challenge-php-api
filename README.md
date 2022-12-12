@@ -7,7 +7,7 @@ La prueba consiste en crear una aplicación mediante PHP la cual al consultar un
 La siguiente guía de instalación se realizó para el sistema operativo Windows 10. Para realizar la instalación en otros sistemas operativos por favor consulte en las respectivas páginas de instalación de las herramientas o sus alternativas.
 
 1. Descargue e instale [XAMPP](https://www.apachefriends.org/) con la configuración por defecto (indispensablemente seleccionar Apache y PHP al instalar).
-2. Configure la extención gmp en php.ini (ubicado normalmente en `C:\xampp\php`)
+2. Configure la extención gmp en php.ini (ubicado normalmente en `C:\xampp\php`) quitando el ```;``` en la linea que dice ```extension=gmp```
 3. Descargue el proyecto y muevalo a la carpeta htdocs ubicada en `C:\xampp\htdocs` .
 4. Trasladese a la ruta elegida para el proyecto a traves de localhost (probablemente http://localhost:80/) para ver el proyecto en funcionamiento.
 
